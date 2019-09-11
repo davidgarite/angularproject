@@ -1,0 +1,12 @@
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-list li {
+    width: 25%;
+}
+
+.product-list li a {
+    display: block;
+}

@@ -21,6 +21,7 @@ import { ProductsService } from './products.service';
     BrowserModule,
     AppRoutingModule
   ],
+  // All services live under providers.
   providers: [
     ProductsService
   ],

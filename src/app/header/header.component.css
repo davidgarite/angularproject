@@ -3,6 +3,7 @@ header {
     background-color: #efefef;
     border-radius: .554em;
     padding: 1em;
+    margin-bottom: .7em;
 }
 
 header > div img {

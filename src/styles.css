@@ -10,6 +10,11 @@ body {
     justify-content: space-between;
 }
 
+.flex.stretch {
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
 ul {
     list-style: none;
 }
@@ -22,4 +27,17 @@ a {
 
 a:hover {
     color: #b52e31;
+}
+
+app-sidenav {
+    width: 25%;
+    background-color: #efefef;
+    border-radius: .554em; 
+}
+
+app-products {
+    width: 75%;
+    background-color: #efefef;
+    border-radius: .554em;
+    margin-left: .8em;
 }

@@ -1,0 +1,13 @@
+aside {
+    padding: 2em;
+}
+
+
+nav ul {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+nav ul li + li {
+    margin-top: 1em;
+}

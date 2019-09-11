@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductsService } from '../products.service';
 
 @Component({
   selector: 'app-sidenav',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidenav.component.css']
 })
 export class SidenavComponent implements OnInit {
+  title = "List of Products";
+  products;
 
-  constructor() { }
+  constructor(service: ProductsService) {
+      this.products = service.getProjects();
+   }
 
   ngOnInit() {
   }

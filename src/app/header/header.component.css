@@ -1,4 +1,22 @@
 header {
     display: flex;
+    background-color: #efefef;
+    border-radius: .554em;
+    padding: 1em;
+}
+
+header > div img {
     width: 100%;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul li + li {
+    margin-left: 1em;
+}
+
+header ul li a {
+    font-weight: 700; 
 }

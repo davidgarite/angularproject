@@ -29,6 +29,14 @@ a:hover {
     color: #b52e31;
 }
 
+img {
+    width: 100%;
+}
+
+.third {
+    width: 28%;
+}
+
 app-sidenav {
     width: 25%;
     background-color: #efefef;
@@ -40,4 +48,6 @@ app-products {
     background-color: #efefef;
     border-radius: .554em;
     margin-left: .8em;
+    padding: 0 2%;
 }
+

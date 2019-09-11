@@ -1,1 +1,16 @@
-<p>products works!</p>
+<div>
+    <h1>{{ Title }}</h1>
+    <p>Viewing Products for [Category].</p>
+    <ul class="product-list flex">
+        <li *ngFor="let product of products" class="third">
+            <a href="javascript:void(0)">
+                <img src="{{ product.image }}" alt="{{ product.title }}">
+                <div class="flex">
+                    <strong>{{ product.title }}</strong>
+                    <span>${{ product.cost }}</span>
+                </div>
+            </a>
+            <button>Add to cart (+)</button>
+        </li>
+    </ul>
+</div>

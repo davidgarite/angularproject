@@ -1,0 +1,40 @@
+.product-list {
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+.product-list li {
+    margin-bottom: 2em;
+    background-color: #ffffff;
+    padding: 2em 2%;
+    border-radius: .554rem;
+}
+
+.product-list li a {
+    display: block;
+}
+
+.product-list li a img {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-list li .flex {
+    margin-top: 1em;
+}
+
+.product-list li button {
+    display: table;
+    margin: 2em auto 0;
+    background-color: #efefef;
+    border-radius: .554rem;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    transition: .5s ease 0s;
+}
+
+.product-list li button:hover {
+    background-color: #87ceeb;
+    color: #ffffff;
+}

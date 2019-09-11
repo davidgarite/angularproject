@@ -8,7 +8,7 @@ import { ProductsService } from '../products.service';
 })
 export class SidenavComponent implements OnInit {
   title = "List of Products";
-  products;
+  products: String[];
 
   constructor(service: ProductsService) {
       this.products = service.getProjects();
@@ -16,5 +16,4 @@ export class SidenavComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
